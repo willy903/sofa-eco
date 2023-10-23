@@ -1,0 +1,74 @@
+.navbar {
+    width: 100%;
+    color: #fff;
+}
+
+.nav-logo {
+    display: flex;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo h3 {
+    color: #e3801b;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav-logo img {
+    width: 15%;
+    height: auto;
+    margin: 0 10px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    height: 80px;
+}
+
+.nav-container .nav-links ul {
+    display: flex;
+}
+
+.nav-container .nav-links ul li {
+    font-size: 20px;
+    margin: 0 10px;
+    text-transform: capitalize;
+}
+
+.nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-icon div {
+    margin: 0 10px;
+}
+
+.icon-cart {
+    position: relative;
+}
+
+.icon-cart span {
+    position: absolute;
+    top: -5px;
+    left: 15px;
+    background-color: #ff0000;
+    color: #fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}

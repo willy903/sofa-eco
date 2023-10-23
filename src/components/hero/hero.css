@@ -1,0 +1,57 @@
+.heroSection {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./../assets/hero.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.descr {
+    width: 85%;
+    margin: 250px auto;
+    color: #fff;
+}
+
+.descr h1 {
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: capitalize;
+    line-height: 58px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.descr p {
+    font-size: 14px;
+    width: 50%;
+    margin: 25px 0;
+}
+
+.descr button {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 6px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.descr .btn-prod {
+    color: #1f2427;
+    background-color: #fff;
+}
+
+.btn-buy {
+    background: #e3801b;
+    margin-right: 20px;
+    color: #fff;
+}
+
+.descr button:hover {
+    box-shadow: 1px 0 5px #ffffff5f;
+}

@@ -1,0 +1,25 @@
+.contbest {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.best-prod {
+    margin-top: 100px;
+}
+
+.present {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+
+.present h1 {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.present p {
+    font-size: 14px;
+}

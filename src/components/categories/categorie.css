@@ -1,0 +1,77 @@
+.container-categories {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 15px #1f2427;
+}
+
+.items-categories {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+}
+
+.items-categories .item1 {
+    width: 25%;
+}
+
+.items-categories .item2 {
+    display: flex;
+    width: 75%;
+}
+
+.items-categories .item2 div {
+    width: 200px;
+    height: 200px;
+    background-color: #1f2427;
+    margin: 10px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+}
+
+.items-categories .item2 div:hover {
+    background-color: #e3801b;
+}
+
+.items-categories .item2 div img {
+    width: 80px;
+    height: auto;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(188deg) brightness(105%) contrast(101%);
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item1 h1 {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.item1 p {
+    font-size: 14px;
+}
+
+.item1 button {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 6px 20px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background: #e3801b;
+    color: #fff;
+    text-transform: capitalize;
+    width: 150px;
+    margin-top: 15px;
+}

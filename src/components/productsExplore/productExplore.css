@@ -1,0 +1,73 @@
+.prod-section {
+    width: 100%;
+    background: #1f2427;
+    margin-top: 100px;
+}
+
+.prod {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.item {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.itemspecifi {
+    display: flex;
+    justify-content: center;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.itemspecifi h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    margin-left: 12px;
+    margin-right: 12px;
+    text-transform: capitalize;
+    line-height: 45px;
+}
+
+.itemspecifi p {
+    font-size: 14px;
+    color: #fff;
+    margin: 12px;
+}
+
+.itemspecifi button {
+    outline: none;
+    border: 1px solid #e3801b;
+    color: #e3801b;
+    background-color: transparent;
+    margin: 12px;
+    padding: 12px;
+    text-transform: capitalize;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.exp1 {
+    width: 150px;
+}
+
+.exp2 {
+    width: 200px;
+}
+
+.exp3 {
+    width: 150px;
+}
+
+.itemspecifi button:hover {
+    background-color: #e3801b;
+    color: #fff;
+    transition: ease-in .2ms;
+}

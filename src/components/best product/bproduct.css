@@ -4,7 +4,7 @@
 }
 
 .best-prod {
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 .present {
@@ -22,4 +22,15 @@
 
 .present p {
     font-size: 14px;
+}
+
+.itemBproduct {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.itemBproduct .itemContainer {
+    margin: 10px 50px;
+    flex: 1 220px;
 }

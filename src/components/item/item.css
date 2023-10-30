@@ -1,0 +1,44 @@
+.itemContainer {
+    width: 220px;
+    height: 290px;
+    background: #1f2427;
+    margin-top: 100px;
+}
+
+.itemContainer img {
+    width: 100%;
+    height: 200px;
+}
+
+.itemContainer h1 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+
+.itemContainer div span {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.itemContainer div {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemContainer div button {
+    font-size: 14px;
+    font-weight: 200;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 2px 8px;
+    background: #e3801b;
+    color: #fff;
+}

@@ -1,0 +1,47 @@
+.section-us {
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.section-us h2 {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.section-us p {
+    font-size: 14px;
+}
+
+.container-us {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item-us {
+    background: #1f2427;
+    margin: 10px;
+    width: 260px;
+    height: 300px;
+}
+
+.item-us img {
+    margin: 20px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(345deg) brightness(100%) contrast(104%);
+}
+
+.item-us h1 {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.item-us p {
+    font-size: 14px;
+    margin: 5px;
+}

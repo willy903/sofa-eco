@@ -6,14 +6,11 @@
 
 .nav-logo {
     display: flex;
-}
-
-.nav-logo {
-    display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 
-.nav-logo h3 {
+.nav-logo a h3 {
     color: #e3801b;
     font-size: 20px;
     font-weight: 900;
@@ -24,6 +21,7 @@
     width: 15%;
     height: auto;
     margin: 0 10px;
+    display: flex;
 }
 
 .nav-container {
@@ -39,10 +37,11 @@
     display: flex;
 }
 
-.nav-container .nav-links ul li {
+.nav-container .nav-links ul li a {
     font-size: 20px;
     margin: 0 10px;
     text-transform: capitalize;
+    color: #fff;
 }
 
 .nav-icon {
@@ -53,6 +52,10 @@
 
 .nav-icon div {
     margin: 0 10px;
+}
+
+.nav-icon div a {
+    color: #fff;
 }
 
 .icon-cart {

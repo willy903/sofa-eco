@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./navbar.css"
 import {BiSearch} from 'react-icons/bi'
 import {BsPersonCircle} from 'react-icons/bs'
@@ -10,21 +11,22 @@ const Navbar = () => {
     <div className='navbar'>
         <div className="nav-container">
             <div className="nav-logo">
-                <img src={logo} alt="" />
-                <h3>HouseNiture</h3>
+           <img src={logo} alt="" />
+            <Link to='/'><h3>HouseNiture</h3></Link>                
+                
             </div>
             <div className="nav-links">
                 <ul>
-                    <li>Home</li>
-                    <li>Products</li>
-                    <li>support</li>
-                    <li>contact</li>
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/Product'>Products</Link></li>
+                    <li><Link to='/Support'>support</Link></li>
+                    <li><a href='#contact'>contact</a></li>
                 </ul>
             </div>
             <div className="nav-icon">
                 <div className="icon-search"><BiSearch size={20}/> </div>
-                <div className="icon-login"><BsPersonCircle size={20} /></div>
-                <div className="icon-cart"><BsCart size={20} /><span className='circleCount'>0</span></div>
+                <div className="icon-login"><Link to='/LoginSignup'><BsPersonCircle size={20} /></Link></div>
+                <div className="icon-cart"><Link to='/Cart'><BsCart size={20} /><span className='circleCount'>0</span></Link></div>
             </div>
         </div>
     </div>

@@ -58,7 +58,7 @@ let all_product = [
   {
     id: 7,
     name: "Loveseat",
-    category: "all",
+    category: "bed",
     imageURL: "https://i.postimg.cc/X77KqBcM/pexels-ksenia-chernaya-3965534.jpg",
     new_price: 85.0,
     old_price: 120.5,
@@ -67,7 +67,7 @@ let all_product = [
   {
     id: 8,
     name: "Sleeper Sofa ",
-    category: "all",
+    category: "bed",
     imageURL: "https://i.postimg.cc/0NpZDRzh/5e0d125c59498ff2caec04284c4453f3.jpg",
     new_price: 85.0,
     old_price: 120.5,
@@ -76,7 +76,7 @@ let all_product = [
   {
     id: 9,
     name: "Chaise Lounge",
-    category: "all",
+    category: "sofa",
     imageURL: "https://i.postimg.cc/bYFMzPkR/pexels-max-rahubovskiy-6198655.jpg",
     new_price: 85.0,
     old_price: 120.5,
@@ -85,7 +85,7 @@ let all_product = [
   {
     id: 10,
     name: "Reclining Sofa",
-    category: "livng room",
+    category: "table",
     imageURL: "https://i.postimg.cc/mgFhdTNp/WM325-Divani-2s-T414-IMG3366.webp",
     new_price: 85.0,
     old_price: 120.5,
@@ -94,7 +94,7 @@ let all_product = [
   {
     id: 11,
     name: "futon",
-    category: "all",
+    category: "sofa",
     imageURL: "https://i.postimg.cc/44VgFnr9/pexels-andrea-davis-12931939.jpg",
     new_price: 85.0,
     old_price: 120.5,
@@ -103,7 +103,7 @@ let all_product = [
   {
     id: 12,
     name: "Settee",
-    category: "all",
+    category: "bookshell",
     imageURL: "https://i.postimg.cc/nch39PYh/pexels-max-rahubovskiy-6969790.jpg",
     new_price: 85.0,
     old_price: 120.5,
@@ -112,7 +112,7 @@ let all_product = [
   {
     id: 13,
     name: "divan",
-    category: "living room",
+    category: "table",
     imageURL: "https://i.postimg.cc/bvxxBxH5/pexels-max-rahubovskiy-6186821.jpg",
     new_price: 85.0,
     old_price: 120.5,
@@ -121,7 +121,7 @@ let all_product = [
   {
     id: 14,
     name: "cabriole sofa",
-    category: "all",
+    category: "sofa",
     imageURL: "https://i.postimg.cc/N0DyXpxQ/86c2780341b609ed84846fb3ef7912cc.jpg",
     new_price: 85.0,
     old_price: 120.5,
@@ -130,7 +130,7 @@ let all_product = [
   {
     id: 15,
     name: "English Roll Arm Sofa",
-    category: "all",
+    category: "sofa",
     imageURL: "https://i.postimg.cc/W12JXd1N/pexels-vlada-karpovich-4050345.jpg",
     new_price: 85.0,
     old_price: 120.5,
@@ -139,7 +139,7 @@ let all_product = [
   {
     id: 16,
     name: "knole sofa",
-    category: "living room",
+    category: "bookshell",
     imageURL: "https://i.postimg.cc/zBDtNz78/pexels-maksim-goncharenok-4352247.jpg",
     new_price: 85.0,
     old_price: 120.5,
@@ -148,7 +148,7 @@ let all_product = [
   {
     id: 17,
     name: "Bridgewater Sofa",
-    category: "all",
+    category: "bed",
     imageURL: "https://i.postimg.cc/GmJ6n5RP/pexels-rachel-claire-4857775.jpg",
     new_price: 85.0,
     old_price: 120.5,
@@ -157,7 +157,7 @@ let all_product = [
   {
     id: 18,
     name: "Empire Sofa",
-    category: "all",
+    category: "bed",
     imageURL: "https://i.postimg.cc/QtB6C62y/sofa-323c7f-1024.jpg",
     new_price: 85.0,
     old_price: 120.5,
@@ -166,7 +166,7 @@ let all_product = [
   {
     id: 19,
     name: "Convertible Sofa ",
-    category: "all",
+    category: "sofa",
     imageURL: "https://i.postimg.cc/9MJWXfjp/I16-TROPECA-528-01.webp",
     new_price: 85.0,
     old_price: 120.5,
@@ -175,7 +175,7 @@ let all_product = [
   {
     id: 20,
     name: "canapé sofa",
-    category: "living room",
+    category: "bed",
     imageURL: "https://i.postimg.cc/Y0KJHKv3/pexels-max-rahubovskiy-6758245.jpg",
     new_price: 85.0,
     old_price: 120.5,

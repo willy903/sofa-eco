@@ -1,0 +1,25 @@
+.HeroProduct {
+    height: 80vh;
+    width: 100%;
+    background-image: url('./../assets/shop.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -260px;
+}
+
+.banner-shop {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #fff;
+}
+
+.banner-shop * {
+    margin-left: 7%;
+}
+
+.banner-shop h2 {
+    font-size: 30px;
+}

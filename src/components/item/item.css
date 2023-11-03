@@ -1,6 +1,5 @@
 .itemContainer {
-    width: 220px;
-    height: 290px;
+    max-width: 220px;
     background: #1f2427;
     margin-top: 100px;
 }

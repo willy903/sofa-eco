@@ -4,7 +4,7 @@ import Categories from './../components/categories/Categories';
 import Items from './../items/Items';
 
 function Product() {
-  const [valOfCat,stvalOfCat] = useState("")
+  const [valOfCat,stvalOfCat] = useState("all")
   return (
       <>
         <HeroProduct/>

@@ -2,11 +2,12 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import './App.css';
 import Footer from './components/footer/Footer';
 import Navbar from './components/navBar/Navbar';
-import Shop from './pages/Shop';
 import Support from './pages/Support';
 import Product from './pages/product';
 import Cart from './pages/Cart';
 import Home from './pages/Home';
+import LoginSignup from './pages/LoginSignup';
+import SignleProduct from './pages/SignleProduct';
 
 function App() {
   return (
@@ -15,12 +16,14 @@ function App() {
         <Navbar/>
         <Routes>
         <Route path='/' element={<Home/>} />
-          <Route path='/shop' element={<Shop/>} />
+        <Route path='/Product' element={<Product/>} />
           <Route path='/support' element={<Support/>} />
-          <Route path='product' element={<Product/>} >
-            <Route path=':productId/' element={<Product/>} />
+          <Route path='signleproduct' element={<SignleProduct/>} >
+            <Route path=':productId/' element={<SignleProduct/>} />
           </Route>
           <Route path='cart' element={<Cart/>} />
+          <Route path='loginsignup' element={<LoginSignup/> } />
+          
 
         </Routes>
         <Footer/>

@@ -19,7 +19,7 @@ const Bproducts = () => {
         <div className="itemBproduct">
           {all_product.map((item,i)=>{
             if(item.note>=5){
-              return <Item  key={i} name={item.name} image={item.imageURL} price={item.new_price} />
+              return <Item  key={i} id={item.id} name={item.name} image={item.imageURL} price={item.new_price} />
             } 
           })}
         </div>

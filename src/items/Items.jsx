@@ -15,6 +15,7 @@ const Items = (props) => {
             return (
               <Item
                 key={i}
+                id={item.id}
                 name={item.name}
                 image={item.imageURL}
                 price={item.new_price}
@@ -27,6 +28,7 @@ const Items = (props) => {
             return (
               <Item
                 key={i}
+                id={item.id}
                 name={item.name}
                 image={item.imageURL}
                 price={item.new_price}

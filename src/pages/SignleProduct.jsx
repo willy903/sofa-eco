@@ -12,7 +12,7 @@ console.log(product)
   return (
     <div>
       <Breadcrumbs product = {product} />
-      <ProductDisplay />
+      <ProductDisplay product = {product} />
     </div>
   )
 }

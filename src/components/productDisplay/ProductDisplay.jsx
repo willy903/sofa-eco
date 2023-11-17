@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./productDisplay.css";
 import { AiFillStar } from "react-icons/ai";
+import { ShopContext } from "../../context/ShopContext";
 
 const ProductDisplay = (props) => {
   const {product} = props
+  const {addToCart} = useContext(ShopContext)
   return (
     <div className="fileProduct">
       <div className="container-descipt">
@@ -14,7 +16,7 @@ const ProductDisplay = (props) => {
           <h1>{product.name} </h1>
           <p className="priceDescript">€{product.new_price} </p>
           <div className="btnCard">
-            <input type="submit" value="Add to card" />
+            <input type="submit" value="Add to card" onClick={()=>{addToCart(product.id)} }  />
           </div>
           <p className="textDescript">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus

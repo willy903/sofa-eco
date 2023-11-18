@@ -1,18 +1,16 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import "./CartItem.css";
 import { AiOutlinePlusCircle } from "react-icons/ai";
 import { AiOutlineMinusCircle } from "react-icons/ai";
 import { ShopContext } from "../../context/ShopContext";
 
 const CartItem = () => {
-  const {all_product,cartitems,addToCart,removeFromcart} = useContext(ShopContext)
-  let totalPrice = 0
+  const {getDefaultTotalItems,getTotalPrice,all_product,cartitems,addToCart,removeFromcart} = useContext(ShopContext)
   let totalOrder= 0
   return (
     <div className="containerCart">
       {all_product.map((e,i)=>{
         if(cartitems[e.id]>0){
-          totalPrice = totalPrice + e.new_price*cartitems[e.id]
           totalOrder = totalOrder+1
           return <div className="CartItem" key={i}>
           <div className="ItemCart imagePresent">
@@ -38,10 +36,11 @@ const CartItem = () => {
           </div>
         </div>
         }
+        return null
       })}
       <div className="summary">
-        <h4>Total : <span>{totalPrice} </span></h4>
-        <h4>Total order : <span>{totalOrder} </span></h4>
+        <h4>Total : <span>{getTotalPrice()} $</span></h4>
+        <h4>Total order : <span>{getDefaultTotalItems()} </span></h4>
       </div>
         <div className="actionCart">
           <button className="empty">Empty cart</button>

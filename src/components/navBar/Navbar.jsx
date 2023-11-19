@@ -1,7 +1,6 @@
 import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
-import { BiSearch } from "react-icons/bi";
 import { BsPersonCircle } from "react-icons/bs";
 import { BsCart } from "react-icons/bs";
 import { IoMenuOutline } from "react-icons/io5";
@@ -30,9 +29,6 @@ const Navbar = () => {
               <Link to="/Product">Products</Link>
             </li>
             <li>
-              <Link to="/Support">support</Link>
-            </li>
-            <li>
               <a href="#contact">contact</a>
             </li>
           </ul>
@@ -43,13 +39,14 @@ const Navbar = () => {
               <BsPersonCircle size={20} />
             </Link>
           </div>
-          <div className="icon-cart hideMobile">
+          <div className="icon-cart">
             <Link to="/Cart">
               <BsCart size={20} />
               <span className="circleCount">{getDefaultTotalItems()}</span>
             </Link>
           </div>
           <div className="icon-menu">
+            
             {first ? (
               <IoCloseOutline size={30} onClick={() => setFirst(false)} />
             ) : (
@@ -66,9 +63,6 @@ const Navbar = () => {
             </li>
             <li>
               <Link to="/Product" onClick={() => setFirst(false)}>Products</Link>
-            </li>
-            <li>
-              <Link to="/Support" onClick={() => setFirst(false)}>support</Link>
             </li>
             <li>
               <a href="#contact" onClick={() => setFirst(false)}>contact</a>

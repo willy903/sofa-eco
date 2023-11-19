@@ -16,7 +16,7 @@ const Bproducts = () => {
             discover the best of what we have to offer.
           </p>
         </div>
-        <div className="itemBproduct">
+        <div className="itemBproduct" id="best">
           {all_product.map((item,i)=>{
             if(item.note>=5){
               return <Item  key={i} id={item.id} name={item.name} image={item.imageURL} price={item.new_price} />

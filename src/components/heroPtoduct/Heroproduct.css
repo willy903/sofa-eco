@@ -5,10 +5,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 -260px;
+    display: flex;
+    align-items: center;
 }
 
 .banner-shop {
-    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -22,4 +23,28 @@
 
 .banner-shop h2 {
     font-size: 30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .HeroProduct {
+        background-position: 0px -80px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .HeroProduct {
+        height: 60vh;
+        width: 100%;
+        background-position: 0px -20px;
+        display: flex;
+        align-items: center;
+    }
+    .banner-shop h2 {
+        font-size: 20px;
+        font-weight: 500;
+        width: 260px;
+    }
+    .banner-shop p {
+        font-size: 14px;
+    }
 }

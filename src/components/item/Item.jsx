@@ -1,15 +1,18 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import './item.css'
+import { ShopContext } from './../../context/ShopContext';
 
 const Item = (props) => {
+  const {addToCart} = useContext(ShopContext)
+  
   return (
     <div className='itemContainer'>
       <Link to={`/signleproduct/${props.id}`} onClick={window.screenTop} ><img src={props.image} alt=""/></Link>
         <h1>{props.name} </h1>
         <div>
             <span>€{props.price} </span>
-            <button>Add to card</button>
+            <button onClick={()=>{addToCart(props.id)} }>Add to card</button>
         </div>
     </div>
   )

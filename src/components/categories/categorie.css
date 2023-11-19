@@ -23,8 +23,7 @@
 }
 
 .items-categories .item2 label {
-    width: 200px;
-    height: 200px;
+    padding: 50px;
     background-color: #1f2427;
     margin: 10px;
     border-radius: 2px;
@@ -80,4 +79,36 @@
     text-transform: capitalize;
     width: 150px;
     margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .items-categories .item2 {
+        flex-wrap: nowrap;
+    }
+    .items-categories .item2 label {
+        padding: 35px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .items-categories .item1 {
+        width: 100%;
+    }
+    .items-categories {
+        flex-wrap: wrap;
+    }
+    .items-categories .item2 label img {
+        width: 40px;
+        height: auto;
+    }
+    .items-categories .item2 label {
+        padding: 15px;
+    }
+    .items-categories .item2 {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .items-categories .item2 label {
+        margin: 4px;
+    }
 }

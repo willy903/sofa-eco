@@ -8,6 +8,7 @@
     width: 85%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .item {
@@ -70,4 +71,39 @@
     background-color: #e3801b;
     color: #fff;
     transition: ease-in .2ms;
+}
+
+@media screen and (max-width: 767px) {
+    .prod-section {
+        margin-top: 20px;
+    }
+    .itemspecifi h1 {
+        font-size: 22px;
+        padding-top: 20px;
+        line-height: 30px;
+    }
+    .itemspecifi button {
+        padding: 5px;
+    }
+    .exp1 {
+        width: 110px;
+    }
+    .exp2 {
+        width: 150px;
+    }
+    .exp3 {
+        width: 125px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .prod {
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .prod {
+        flex-wrap: nowrap;
+    }
 }

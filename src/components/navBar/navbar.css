@@ -76,3 +76,42 @@
     align-items: center;
     font-size: 10px;
 }
+
+.icon-menu {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .nav-container {
+        height: 50px;
+    }
+    .nav-logo a h3 {
+        font-size: 14px;
+    }
+    .icon-menu {
+        display: flex;
+    }
+    .nav-logo img {
+        width: 12%;
+    }
+    .nav-links ul li {
+        display: none;
+    }
+    .navbar {
+        background-color: #272c2f;
+    }
+    .mobile ul {
+        width: 85%;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+    .mobile ul li a {
+        font-size: 16px;
+        margin: 0 15px;
+        text-transform: capitalize;
+        color: #fff;
+    }
+    .hideMobile {
+        display: none;
+    }
+}

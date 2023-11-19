@@ -54,3 +54,28 @@
 .descr button:hover {
     box-shadow: 1px 0 5px #ffffff5f;
 }
+
+@media screen and (max-width: 767px) {
+    .heroSection {
+        padding-top: 50px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+    }
+    .descr h1 {
+        font-size: 24px;
+        font-weight: 200;
+        line-height: 28px;
+        padding-bottom: 20px;
+        text-shadow: 0px 2px 3px #1f2427;
+    }
+    .descr p {
+        display: none;
+    }
+    .descr button {
+        font-size: 14px;
+        font-weight: 300;
+        padding: 5px 8px;
+        border-radius: 5px;
+    }
+}

@@ -9,7 +9,7 @@ const WhoUs = () => {
   return (
     <div className="section-us">
       <h2>Why Choose us</h2>
-      <p>At HouseNiture, we offer compelling reasons to partner with us:</p>
+      <p className="p">At HouseNiture, we offer compelling reasons to partner with us:</p>
       <div className="container-us">
         <div className="item-us">
           <img src={date} alt="" width={"40%"} height={"auto"} />

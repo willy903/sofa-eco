@@ -43,7 +43,6 @@ const CartItem = () => {
         <h4>Total order : <span>{getDefaultTotalItems()} </span></h4>
       </div>
         <div className="actionCart">
-          <button className="empty">Empty cart</button>
           <button className="order">Checkout</button>
         </div>
       

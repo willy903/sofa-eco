@@ -106,3 +106,20 @@
 .copyright p {
     margin-left: 15%;
 }
+
+@media screen and (max-width: 767px) {
+    .info p {
+        width: 100%;
+        font-size: 14px;
+        margin: 12px 0;
+    }
+    .botom {
+        display: none;
+    }
+    .copyright {
+        width: 100%;
+    }
+    .footer {
+        height: 510px;
+    }
+}

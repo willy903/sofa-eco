@@ -45,3 +45,16 @@
     font-size: 14px;
     margin: 5px;
 }
+
+@media only screen and (max-width: 480px) {
+    .section-us h2 {
+        font-size: 28px;
+        padding-top: 20px;
+    }
+    .container-us {
+        justify-content: center;
+    }
+    .section-us .p {
+        padding: 20px;
+    }
+}
